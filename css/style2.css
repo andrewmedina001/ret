@@ -12,9 +12,22 @@
     height: 40vh;
 }
 .contenedor0101{
-    background-color: rgb(124, 136, 148);
-    border:1px solid red;
+    background-color: black;
     width:max-content;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor0102{
+    background-color: black;
+    width:max-content;
+    color:white;
+    padding: 20px;
+}
+.contenedor0103{
+    background-color: rgb(124, 136, 148);
+    width:max-content;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1{
     color: white;
