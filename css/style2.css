@@ -1,0 +1,33 @@
+*{
+    border:0;
+    padding: 0;
+    margin: 0;
+}
+.contenedor01{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 40vh;
+}
+.contenedor0101{
+    background-color: rgb(124, 136, 148);
+    border:1px solid red;
+    width:max-content;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+.menu{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
