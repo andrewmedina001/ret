@@ -15,13 +15,14 @@
     background-color: black;
     width:max-content;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .contenedor0102{
     background-color: black;
     width:max-content;
     color:white;
     padding: 20px;
+    font-size: 30px;
 }
 .contenedor0103{
     background-color: rgb(124, 136, 148);
@@ -43,4 +44,35 @@ h3{
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.footeri{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.h1footer{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.divfooter{
+    padding: 65px;
+    color: black;
+    border: 1px solid black;
+    width: 25%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.divfooter img{
+    width: 25%;
+}
+
+.divfooter p{
+    justify-content: center;
+    padding-left: 30%;
+    width: 200px;
 }
