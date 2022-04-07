@@ -13,7 +13,6 @@ function operacion2(){
     let N=document.getElementById("N").value;
     let TP=document.getElementById("TP").value;
     let PA;
-    console.log("tI is ",TI)
     switch(TI){
         case "sencilla":
             PA=20;
@@ -45,11 +44,26 @@ function operacion2(){
 
 // Algoritmo de RETO 3
     //Valores Globales
-    let cantToner=0;
-    let cantCabezal=0;
-    let cantTinta=0;
+    var cantToner=0;
+    var cantCabezal=0;
+    var cantTinta=0;
 
 function operacion3(){
-    let N=document.getElementById("N.").value;
-
+    var N=+document.getElementById("N.").value;
+    var seleccion=+document.getElementById("select1").value;
+    switch(seleccion){
+        case 1:
+            cantToner+=N;
+            break;
+        case 2:
+            cantCabezal+=N;
+            break;
+        case 3:
+            cantTinta+=N;
+            break;
+        default:
+    }
+    document.getElementById("cantToner").innerHTML=cantToner;
+    document.getElementById("cantCabezal").innerHTML=cantCabezal;
+    document.getElementById("cantTinta").innerHTML=cantTinta;
 }
